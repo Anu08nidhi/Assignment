@@ -1,0 +1,38 @@
+.customDiv{
+    width: 284px;
+    height: 99px;
+    background-color: #ff40808e;
+    background-size: cover;
+    background-position: top;
+    position: fixed;
+    clip-path: polygon(0 0, 100% 0, 100% -11vh, 0 14vh);
+    z-index: 999;
+}
+.customDiv h1{
+    font-size: 18px;
+    display: inline-block;
+    transform: translate(9px,6px);
+    font-weight: bold;
+}
+
+#navbarText{
+    font-size: 26px;
+}
+ul li{
+    padding: 0 30px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.7);
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #ff4081;
+}
+.navbar-light .navbar-nav .nav-link:hover , .fa:hover{
+    color: #ff4081;
+    cursor: pointer;
+}
+.fa{
+    font-size: 26px;
+    margin: 0 15px;
+    color: rgba(0,0,0,.7);
+}
